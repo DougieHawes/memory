@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+}
+
+body {
+    background-image: radial-gradient(silver, #666);
+    height: 100vh;
+}
+
+.header {
+    padding: 14px auto;
+}
+
+h1 {
+    color: #f8f8f8;
+    font-size: 42px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: calc(86px * 7);
+}
+
+img {
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    margin: 3px auto;
+}
